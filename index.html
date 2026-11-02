@@ -469,7 +469,7 @@ footer p + p{margin-top:6px}
       </article>
     </div>
   </div>
-  <p class="note">She's brave, curious and a little stubborn. Remind you of anyone? xo, J</p>
+  <p class="note">Coraline is brave and curious. You're sweet, kind and really cute, which I like even more. xo, J</p>
 </section>
 
 <!-- Hall II -->
@@ -498,7 +498,7 @@ footer p + p{margin-top:6px}
     <li><span class="flat">Landlady</span><h3>Mrs. Lovat</h3><p>Wybie's grandmother owns the Pink Palace. When she was a girl, her twin sister disappeared in that house.</p></li>
     <li><span class="flat">Behind the little door · also Teri Hatcher</span><h3>The Other Mother</h3><p>Voiced by the same actress as Coraline's real mom, which is exactly why she feels so familiar at first.</p></li>
   </ul>
-  <p class="note right">Our apartment would have way fewer stuffed dogs. Maybe one. xo, J</p>
+  <p class="note right">Out of everyone at the Pink Palace, you'd be the sweetest neighbour by far. xo, J</p>
 </section>
 
 <!-- Hall III -->
@@ -646,7 +646,7 @@ footer p + p{margin-top:6px}
       <div><h3>The hand in the well</h3><p>In the book, Coraline tricks the Other Mother's hand into the old well by herself. In the film, Wybie helps her.</p></div>
     </aside>
   </div>
-  <p class="note">I've lost count of how many times we've watched it. Let's keep losing count. xo, J</p>
+  <p class="note">Every room in this museum was made thinking about you. xo, J</p>
 </section>
 
 <!-- Hall VI -->
@@ -676,7 +676,7 @@ footer p + p{margin-top:6px}
     <div>
       <p class="eyebrow">Hall VII</p>
       <h2 id="h7-title">The Quiz Room</h2>
-      <p class="intro">Seven questions. You already know all of these, but let's prove it.</p>
+      <p class="intro">Seven questions about everything in the museum. Let's see how many you get.</p>
     </div>
   </div>
   <div class="quiz" id="quiz-box" aria-live="polite"></div>
@@ -853,7 +853,7 @@ const HER_NAME = "my love";
     { t: "Before the Pink Palace, the Jones family lived in Pontiac, Michigan." },
     { t: "When the Other Mother starts losing, her world comes apart. It fades to grey, then turns into a giant web." },
     { t: "Coraline's face was printed in two halves. The seam between them was removed digitally, frame by frame." },
-    { t: "Coraline needed a key to find the little door. All you had to do to find me was smile.", love: true },
+    { t: "You're sweeter than anything the Other Mother could ever cook.", love: true },
     { t: "In the book, Coraline tricks the Other Mother's hand into the well all by herself." },
     { t: "Wybie's grandmother lost her twin sister in the Pink Palace when they were girls. She is one of the ghost children." },
   ];
@@ -949,10 +949,10 @@ const HER_NAME = "my love";
   function renderResult() {
     const score = results.filter(Boolean).length;
     const msg = score === QUIZ.length
-      ? "Perfect score. Obviously. You're the biggest Coraline fan I know, and my favorite person in every world."
+      ? "Perfect score! You really know your Coraline. And you're my favorite person in every world."
       : score >= 5
-        ? "So close. The Cat would be impressed. I'm impressed. I'm always impressed by you."
-        : "The Other Mother must have borrowed a few of your memories. Try again? I'll be right here.";
+        ? "So close! The Cat would be impressed. I'm impressed too."
+        : "Every room has the answers if you want another try. Either way, you're still my favorite.";
     box.innerHTML = `
       <div class="q-top"><span class="q-step">Your score</span>${dots()}</div>
       <p class="q-score">${score} / ${QUIZ.length}</p>
